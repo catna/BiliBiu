@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E127214D1CB79A93000638F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127214C1CB79A93000638F4 /* AppDelegate.swift */; };
+		E127214F1CB79A93000638F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127214E1CB79A93000638F4 /* ViewController.swift */; };
+		E12721521CB79A93000638F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12721501CB79A93000638F4 /* Main.storyboard */; };
+		E12721541CB79A93000638F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12721531CB79A93000638F4 /* Assets.xcassets */; };
+		E12721571CB79A93000638F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12721551CB79A93000638F4 /* LaunchScreen.storyboard */; };
+		E12721621CB79A93000638F4 /* BiliBiuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12721611CB79A93000638F4 /* BiliBiuTests.swift */; };
+		E127216D1CB79A93000638F4 /* BiliBiuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127216C1CB79A93000638F4 /* BiliBiuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E127215E1CB79A93000638F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12721411CB79A93000638F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12721481CB79A93000638F4;
+			remoteInfo = BiliBiu;
+		};
+		E12721691CB79A93000638F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12721411CB79A93000638F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12721481CB79A93000638F4;
+			remoteInfo = BiliBiu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E12721491CB79A93000638F4 /* BiliBiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiliBiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127214C1CB79A93000638F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E127214E1CB79A93000638F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E12721511CB79A93000638F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E12721531CB79A93000638F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E12721561CB79A93000638F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E12721581CB79A93000638F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127215D1CB79A93000638F4 /* BiliBiuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiliBiuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12721611CB79A93000638F4 /* BiliBiuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiliBiuTests.swift; sourceTree = "<group>"; };
+		E12721631CB79A93000638F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12721681CB79A93000638F4 /* BiliBiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiliBiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127216C1CB79A93000638F4 /* BiliBiuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiliBiuUITests.swift; sourceTree = "<group>"; };
+		E127216E1CB79A93000638F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12721461CB79A93000638F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127215A1CB79A93000638F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12721651CB79A93000638F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12721401CB79A93000638F4 = {
+			isa = PBXGroup;
+			children = (
+				E127214B1CB79A93000638F4 /* BiliBiu */,
+				E12721601CB79A93000638F4 /* BiliBiuTests */,
+				E127216B1CB79A93000638F4 /* BiliBiuUITests */,
+				E127214A1CB79A93000638F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E127214A1CB79A93000638F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12721491CB79A93000638F4 /* BiliBiu.app */,
+				E127215D1CB79A93000638F4 /* BiliBiuTests.xctest */,
+				E12721681CB79A93000638F4 /* BiliBiuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E127214B1CB79A93000638F4 /* BiliBiu */ = {
+			isa = PBXGroup;
+			children = (
+				E127214C1CB79A93000638F4 /* AppDelegate.swift */,
+				E127214E1CB79A93000638F4 /* ViewController.swift */,
+				E12721501CB79A93000638F4 /* Main.storyboard */,
+				E12721531CB79A93000638F4 /* Assets.xcassets */,
+				E12721551CB79A93000638F4 /* LaunchScreen.storyboard */,
+				E12721581CB79A93000638F4 /* Info.plist */,
+			);
+			path = BiliBiu;
+			sourceTree = "<group>";
+		};
+		E12721601CB79A93000638F4 /* BiliBiuTests */ = {
+			isa = PBXGroup;
+			children = (
+				E12721611CB79A93000638F4 /* BiliBiuTests.swift */,
+				E12721631CB79A93000638F4 /* Info.plist */,
+			);
+			path = BiliBiuTests;
+			sourceTree = "<group>";
+		};
+		E127216B1CB79A93000638F4 /* BiliBiuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E127216C1CB79A93000638F4 /* BiliBiuUITests.swift */,
+				E127216E1CB79A93000638F4 /* Info.plist */,
+			);
+			path = BiliBiuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12721481CB79A93000638F4 /* BiliBiu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12721711CB79A93000638F4 /* Build configuration list for PBXNativeTarget "BiliBiu" */;
+			buildPhases = (
+				E12721451CB79A93000638F4 /* Sources */,
+				E12721461CB79A93000638F4 /* Frameworks */,
+				E12721471CB79A93000638F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiliBiu;
+			productName = BiliBiu;
+			productReference = E12721491CB79A93000638F4 /* BiliBiu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E127215C1CB79A93000638F4 /* BiliBiuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12721741CB79A93000638F4 /* Build configuration list for PBXNativeTarget "BiliBiuTests" */;
+			buildPhases = (
+				E12721591CB79A93000638F4 /* Sources */,
+				E127215A1CB79A93000638F4 /* Frameworks */,
+				E127215B1CB79A93000638F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E127215F1CB79A93000638F4 /* PBXTargetDependency */,
+			);
+			name = BiliBiuTests;
+			productName = BiliBiuTests;
+			productReference = E127215D1CB79A93000638F4 /* BiliBiuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E12721671CB79A93000638F4 /* BiliBiuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12721771CB79A93000638F4 /* Build configuration list for PBXNativeTarget "BiliBiuUITests" */;
+			buildPhases = (
+				E12721641CB79A93000638F4 /* Sources */,
+				E12721651CB79A93000638F4 /* Frameworks */,
+				E12721661CB79A93000638F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E127216A1CB79A93000638F4 /* PBXTargetDependency */,
+			);
+			name = BiliBiuUITests;
+			productName = BiliBiuUITests;
+			productReference = E12721681CB79A93000638F4 /* BiliBiuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12721411CB79A93000638F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MX;
+				TargetAttributes = {
+					E12721481CB79A93000638F4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E127215C1CB79A93000638F4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E12721481CB79A93000638F4;
+					};
+					E12721671CB79A93000638F4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E12721481CB79A93000638F4;
+					};
+				};
+			};
+			buildConfigurationList = E12721441CB79A93000638F4 /* Build configuration list for PBXProject "BiliBiu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E12721401CB79A93000638F4;
+			productRefGroup = E127214A1CB79A93000638F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12721481CB79A93000638F4 /* BiliBiu */,
+				E127215C1CB79A93000638F4 /* BiliBiuTests */,
+				E12721671CB79A93000638F4 /* BiliBiuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E12721471CB79A93000638F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12721571CB79A93000638F4 /* LaunchScreen.storyboard in Resources */,
+				E12721541CB79A93000638F4 /* Assets.xcassets in Resources */,
+				E12721521CB79A93000638F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127215B1CB79A93000638F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12721661CB79A93000638F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12721451CB79A93000638F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127214F1CB79A93000638F4 /* ViewController.swift in Sources */,
+				E127214D1CB79A93000638F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12721591CB79A93000638F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12721621CB79A93000638F4 /* BiliBiuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12721641CB79A93000638F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127216D1CB79A93000638F4 /* BiliBiuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E127215F1CB79A93000638F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E12721481CB79A93000638F4 /* BiliBiu */;
+			targetProxy = E127215E1CB79A93000638F4 /* PBXContainerItemProxy */;
+		};
+		E127216A1CB79A93000638F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E12721481CB79A93000638F4 /* BiliBiu */;
+			targetProxy = E12721691CB79A93000638F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E12721501CB79A93000638F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12721511CB79A93000638F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E12721551CB79A93000638F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12721561CB79A93000638F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E127216F1CB79A93000638F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E12721701CB79A93000638F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E12721721CB79A93000638F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BiliBiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catna.BiliBiu.BiliBiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E12721731CB79A93000638F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BiliBiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catna.BiliBiu.BiliBiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E12721751CB79A93000638F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BiliBiuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catna.BiliBiu.BiliBiuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiliBiu.app/BiliBiu";
+			};
+			name = Debug;
+		};
+		E12721761CB79A93000638F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BiliBiuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catna.BiliBiu.BiliBiuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiliBiu.app/BiliBiu";
+			};
+			name = Release;
+		};
+		E12721781CB79A93000638F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BiliBiuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catna.BiliBiu.BiliBiuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BiliBiu;
+			};
+			name = Debug;
+		};
+		E12721791CB79A93000638F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BiliBiuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catna.BiliBiu.BiliBiuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BiliBiu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12721441CB79A93000638F4 /* Build configuration list for PBXProject "BiliBiu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127216F1CB79A93000638F4 /* Debug */,
+				E12721701CB79A93000638F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12721711CB79A93000638F4 /* Build configuration list for PBXNativeTarget "BiliBiu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12721721CB79A93000638F4 /* Debug */,
+				E12721731CB79A93000638F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E12721741CB79A93000638F4 /* Build configuration list for PBXNativeTarget "BiliBiuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12721751CB79A93000638F4 /* Debug */,
+				E12721761CB79A93000638F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E12721771CB79A93000638F4 /* Build configuration list for PBXNativeTarget "BiliBiuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12721781CB79A93000638F4 /* Debug */,
+				E12721791CB79A93000638F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12721411CB79A93000638F4 /* Project object */;
+}
