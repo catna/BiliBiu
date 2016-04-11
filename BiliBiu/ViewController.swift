@@ -32,6 +32,16 @@ class ViewController: UIViewController {
 //        self.avPlayer.replaceCurrentItemWithPlayerItem(apItem2)
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let appBaseSB = UIStoryboard.init(name: "AppBase", bundle: nil)
+        let vc = appBaseSB.instantiateInitialViewController()
+        dispatch_after(5, dispatch_get_main_queue()) { 
+            self.presentViewController(vc!, animated: true, completion: nil)
+        }
+    }
+    
     
 
     override func didReceiveMemoryWarning() {
