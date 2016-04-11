@@ -14,6 +14,8 @@
 		E12721571CB79A93000638F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12721551CB79A93000638F4 /* LaunchScreen.storyboard */; };
 		E12721621CB79A93000638F4 /* BiliBiuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12721611CB79A93000638F4 /* BiliBiuTests.swift */; };
 		E127216D1CB79A93000638F4 /* BiliBiuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127216C1CB79A93000638F4 /* BiliBiuUITests.swift */; };
+		E16EB7EE1CBB6ECC008FB632 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E16EB7ED1CBB6ECC008FB632 /* README.md */; };
+		E16EB7F01CBB6FA0008FB632 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E16EB7EF1CBB6FA0008FB632 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E12721681CB79A93000638F4 /* BiliBiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiliBiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E127216C1CB79A93000638F4 /* BiliBiuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiliBiuUITests.swift; sourceTree = "<group>"; };
 		E127216E1CB79A93000638F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16EB7ED1CBB6ECC008FB632 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E16EB7EF1CBB6FA0008FB632 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		E127214B1CB79A93000638F4 /* BiliBiu */ = {
 			isa = PBXGroup;
 			children = (
+				E16EB7EA1CBB6EA0008FB632 /* Classes */,
+				E16EB7EC1CBB6EA0008FB632 /* Resources */,
 				E127214C1CB79A93000638F4 /* AppDelegate.swift */,
 				E127214E1CB79A93000638F4 /* ViewController.swift */,
 				E12721501CB79A93000638F4 /* Main.storyboard */,
@@ -123,6 +129,30 @@
 				E127216E1CB79A93000638F4 /* Info.plist */,
 			);
 			path = BiliBiuUITests;
+			sourceTree = "<group>";
+		};
+		E16EB7EA1CBB6EA0008FB632 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E16EB7EF1CBB6FA0008FB632 /* README.md */,
+				E16EB7EB1CBB6EA0008FB632 /* Utility */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E16EB7EB1CBB6EA0008FB632 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E16EB7EC1CBB6EA0008FB632 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E16EB7ED1CBB6ECC008FB632 /* README.md */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16EB7EE1CBB6ECC008FB632 /* README.md in Sources */,
 				E127214F1CB79A93000638F4 /* ViewController.swift in Sources */,
+				E16EB7F01CBB6FA0008FB632 /* README.md in Sources */,
 				E127214D1CB79A93000638F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +518,7 @@
 				E12721731CB79A93000638F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E12721741CB79A93000638F4 /* Build configuration list for PBXNativeTarget "BiliBiuTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +527,7 @@
 				E12721761CB79A93000638F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E12721771CB79A93000638F4 /* Build configuration list for PBXNativeTarget "BiliBiuUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +536,7 @@
 				E12721791CB79A93000638F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

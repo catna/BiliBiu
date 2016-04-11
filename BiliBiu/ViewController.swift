@@ -27,10 +27,12 @@ class ViewController: UIViewController {
         self.view.layer.addSublayer(avLayer)
         self.avPlayer.play()
         
-        let apItem2 = AVPlayerItem.init(URL: NSURL.init(string: "http://cn-shcy3-dx.acgvideo.com/vg8/8/88/6966263hd.mp4?expires=1460118900&ssig=M4UkZhM3rQtfGG4567OxDA&oi=3031252344&appkey=86385cdc024c0f6c&or=3026306825&rate=0")!)
+//        let apItem2 = AVPlayerItem.init(URL: NSURL.init(string: "http://cn-shcy3-dx.acgvideo.com/vg8/8/88/6966263hd.mp4?expires=1460118900&ssig=M4UkZhM3rQtfGG4567OxDA&oi=3031252344&appkey=86385cdc024c0f6c&or=3026306825&rate=0")!)
         self.avPlayer.rate = 2.0
-        self.avPlayer.replaceCurrentItemWithPlayerItem(apItem2)
+//        self.avPlayer.replaceCurrentItemWithPlayerItem(apItem2)
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
