@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03DFFB60EFF2EFD673BF485D /* Pods_BiliBiu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266037CAB5D3885197CB3FFE /* Pods_BiliBiu.framework */; };
 		E1A562861E6FB3A700BE5CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A562851E6FB3A700BE5CAB /* AppDelegate.swift */; };
 		E1A562881E6FB3A700BE5CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A562871E6FB3A700BE5CAB /* ViewController.swift */; };
 		E1A5628B1E6FB3A700BE5CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A562891E6FB3A700BE5CAB /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		266037CAB5D3885197CB3FFE /* Pods_BiliBiu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiliBiu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		428C1F5AFF4D3A62C200C2C1 /* Pods-BiliBiu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiliBiu.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiliBiu/Pods-BiliBiu.release.xcconfig"; sourceTree = "<group>"; };
+		C34BF3B8E9C088E1ED034123 /* Pods-BiliBiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiliBiu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiliBiu/Pods-BiliBiu.debug.xcconfig"; sourceTree = "<group>"; };
 		E1A562821E6FB3A700BE5CAB /* BiliBiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiliBiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A562851E6FB3A700BE5CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A562871E6FB3A700BE5CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DFFB60EFF2EFD673BF485D /* Pods_BiliBiu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921101293DDEFC4145AEB4FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C34BF3B8E9C088E1ED034123 /* Pods-BiliBiu.debug.xcconfig */,
+				428C1F5AFF4D3A62C200C2C1 /* Pods-BiliBiu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92672C0B1758783E415E2619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				266037CAB5D3885197CB3FFE /* Pods_BiliBiu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1A562791E6FB3A700BE5CAB = {
 			isa = PBXGroup;
 			children = (
 				E1A562841E6FB3A700BE5CAB /* BiliBiu */,
 				E1A562831E6FB3A700BE5CAB /* Products */,
+				921101293DDEFC4145AEB4FA /* Pods */,
+				92672C0B1758783E415E2619 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A562941E6FB3A700BE5CAB /* Build configuration list for PBXNativeTarget "BiliBiu" */;
 			buildPhases = (
+				E106AAB35FF22463548701CB /* [CP] Check Pods Manifest.lock */,
 				E1A5627E1E6FB3A700BE5CAB /* Sources */,
 				E1A5627F1E6FB3A700BE5CAB /* Frameworks */,
 				E1A562801E6FB3A700BE5CAB /* Resources */,
+				BFFD50F4C5A775E67D112A0D /* [CP] Embed Pods Frameworks */,
+				AC5745E8B443E0954768F2F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC5745E8B443E0954768F2F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiliBiu/Pods-BiliBiu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFFD50F4C5A775E67D112A0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiliBiu/Pods-BiliBiu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E106AAB35FF22463548701CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1A5627E1E6FB3A700BE5CAB /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		E1A562951E6FB3A700BE5CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34BF3B8E9C088E1ED034123 /* Pods-BiliBiu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7VTAQLJLUA;
@@ -270,6 +346,7 @@
 		};
 		E1A562961E6FB3A700BE5CAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428C1F5AFF4D3A62C200C2C1 /* Pods-BiliBiu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7VTAQLJLUA;
