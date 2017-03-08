@@ -12,6 +12,7 @@
 		E1A5628B1E6FB3A700BE5CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A562891E6FB3A700BE5CAB /* Main.storyboard */; };
 		E1A5628D1E6FB3A700BE5CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A5628C1E6FB3A700BE5CAB /* Assets.xcassets */; };
 		E1A562901E6FB3A700BE5CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A5628E1E6FB3A700BE5CAB /* LaunchScreen.storyboard */; };
+		E1A562981E6FBC9300BE5CAB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1A562971E6FBC9300BE5CAB /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1A5628C1E6FB3A700BE5CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A5628F1E6FB3A700BE5CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A562911E6FB3A700BE5CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A562971E6FBC9300BE5CAB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				E1A5628C1E6FB3A700BE5CAB /* Assets.xcassets */,
 				E1A5628E1E6FB3A700BE5CAB /* LaunchScreen.storyboard */,
 				E1A562911E6FB3A700BE5CAB /* Info.plist */,
+				E1A562971E6FBC9300BE5CAB /* Settings.bundle */,
 			);
 			path = BiliBiu;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A562981E6FBC9300BE5CAB /* Settings.bundle in Resources */,
 				E1A562901E6FB3A700BE5CAB /* LaunchScreen.storyboard in Resources */,
 				E1A5628D1E6FB3A700BE5CAB /* Assets.xcassets in Resources */,
 				E1A5628B1E6FB3A700BE5CAB /* Main.storyboard in Resources */,
