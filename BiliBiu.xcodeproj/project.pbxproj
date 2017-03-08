@@ -13,6 +13,8 @@
 		E1A5628D1E6FB3A700BE5CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A5628C1E6FB3A700BE5CAB /* Assets.xcassets */; };
 		E1A562901E6FB3A700BE5CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A5628E1E6FB3A700BE5CAB /* LaunchScreen.storyboard */; };
 		E1A562981E6FBC9300BE5CAB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1A562971E6FBC9300BE5CAB /* Settings.bundle */; };
+		E1A5629E1E6FC47600BE5CAB /* TNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5629D1E6FC47600BE5CAB /* TNetwork.swift */; };
+		E1A562A31E6FD6AF00BE5CAB /* DataRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A562A21E6FD6AF00BE5CAB /* DataRequester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E1A5628F1E6FB3A700BE5CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A562911E6FB3A700BE5CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A562971E6FBC9300BE5CAB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E1A5629D1E6FC47600BE5CAB /* TNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNetwork.swift; sourceTree = "<group>"; };
+		E1A562A21E6FD6AF00BE5CAB /* DataRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRequester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		E1A562841E6FB3A700BE5CAB /* BiliBiu */ = {
 			isa = PBXGroup;
 			children = (
+				E1A562991E6FBD4B00BE5CAB /* Classes */,
 				E1A562851E6FB3A700BE5CAB /* AppDelegate.swift */,
 				E1A562891E6FB3A700BE5CAB /* Main.storyboard */,
 				E1A5628C1E6FB3A700BE5CAB /* Assets.xcassets */,
@@ -86,6 +91,47 @@
 				E1A562971E6FBC9300BE5CAB /* Settings.bundle */,
 			);
 			path = BiliBiu;
+			sourceTree = "<group>";
+		};
+		E1A562991E6FBD4B00BE5CAB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1A562A01E6FD66700BE5CAB /* Adapter */,
+				E1A5629C1E6FC45000BE5CAB /* Pages */,
+				E1A5629A1E6FC42F00BE5CAB /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E1A5629A1E6FC42F00BE5CAB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E1A5629D1E6FC47600BE5CAB /* TNetwork.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E1A5629C1E6FC45000BE5CAB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		E1A562A01E6FD66700BE5CAB /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				E1A562A11E6FD69100BE5CAB /* Requester */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		E1A562A11E6FD69100BE5CAB /* Requester */ = {
+			isa = PBXGroup;
+			children = (
+				E1A562A21E6FD6AF00BE5CAB /* DataRequester.swift */,
+			);
+			path = Requester;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A562861E6FB3A700BE5CAB /* AppDelegate.swift in Sources */,
+				E1A5629E1E6FC47600BE5CAB /* TNetwork.swift in Sources */,
+				E1A562A31E6FD6AF00BE5CAB /* DataRequester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -322,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -337,6 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7VTAQLJLUA;
 				INFOPLIST_FILE = BiliBiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mx.BiliBiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7VTAQLJLUA;
 				INFOPLIST_FILE = BiliBiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mx.BiliBiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
